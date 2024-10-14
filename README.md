@@ -6,7 +6,7 @@ The utility lets you ask questions about heap dump data in human language by tra
 
 ### Usage example
 
-First, download the executable distribution from [Releases](releases/latest) page. Then make sure you have **Java 21** installed.
+First, download the executable distribution from [Releases](https://github.com/Toparvion/heap-talk/releases/latest) page. Then make sure you have **Java 21** installed.
 
 ```sh
 ./bin/heap-talk --api-key=demo dumps/petclinic.hprof \
@@ -29,5 +29,5 @@ See more examples on [this page](https://toparvion.pro/project/heap-talk/) (in R
 
 ### Feedback
 
-You’re welcome to leave [comments](https://toparvion.pro/en/#contact), submit [issues](issues/) and create [PRs](pulls/) if you find this tools interesting.
+You’re welcome to leave [comments](https://toparvion.pro/en/#contact), submit [issues](https://github.com/Toparvion/heap-talk/issues/) and create [PRs](https://github.com/Toparvion/heap-talk/pulls/) if you find this tools interesting.
 

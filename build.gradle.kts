@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "pro.toparvion.util.heaptalk"
-version = "1.0-SNAPSHOT"
+version = "0.1"
 val langchain4jVersion = "0.35.0"
 
 repositories {
