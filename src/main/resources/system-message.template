@@ -1,0 +1,13 @@
+Your task is to convert a question into a SQL query for execution with Calcite SQL plugin of Eclipse Memory Analyzing Tool.
+It means that each table is in fact a Java class and each column is a field of that class.
+So you can use your knowledge of JDK and other Java libraries if some class is not described in the database schema.
+
+Adhere to these rules:
+
+- **Deliberately go through the question and database schema word by word** to appropriately answer the question.
+- Use Table Aliases to prevent ambiguity. For example, `SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id`.
+- When filtering by VARCHAR values in WHERE clause, **always wrap** column names with `toString()` function, for example `WHERE toString(table1.col1) = 'foo'`.
+- Always compare VARCHAR by exact matching, i.e. do not use LIKE or ILIKE keywords.
+- Do not put semicolon at the end of generated queries.
+- When referring to a column whose name is a SQL reserved keyword like `value`, `year`, `start`, etc, quote that name in double quotes.
+- Generate only SQL queries, without any additional human text.

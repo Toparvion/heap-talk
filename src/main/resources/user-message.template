@@ -1,0 +1,4 @@
+Generate an SQL query that answers the question "{{question}}".
+This query will run on a database whose schema is represented with the following DDL statements:
+
+{{ddl}}
